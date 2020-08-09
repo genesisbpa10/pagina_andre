@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #bba;
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.15), -30px 0px 40px rgba(0, 0, 0, 0.15);
+
+}
+.header{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 4rem;
+    align-items: center;
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vw;
+    padding:  0rem 2rem;
+    text-transform: uppercase;
+    margin:0 auto;
+}
+
+.footer-cover{
+    padding: 10px;
+    margin: 0 80px 40px;
+    justify-content: space-between;
+}
+
+.footer-cover a img{
+   margin: 0.2em;
+   max-width: 3.5vw;
+   max-height: 3.5vw;
+}
+
+            /*.btn{
+                padding: 0.5rem 2 rem;
+                border:1px #ccc solid;
+                display: inline-block;
+                margin: 2rem 0 0 ;
+                text-decoration:  none;
+                color: rosybrown;
+                background: #cfcfcf;
+                border-radius: 12%;
+                transition: background ease 500ms;
+            }*/
+img{
+    width: 50%;
+    display: block;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 11vh;
+    background-color: #4B3B40;
+    font-family: 'Khand', sans-serif;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    color:#cfcfcf;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #cfcfcf;
+}
+a:hover{
+    color: black;
+}
+.nav-links li{
+    list-style: none;
+}
+
+
+.burger div{
+    width: 25px;
+    height: 2.5px;
+    background-color: #cfcfcf;
+    margin: 5px;
+}
+
+.texto{
+    width: 50%;
+}
+
+.parrafo{
+    padding:1.5rem;
+    text-align: center;
+    background-color: #bbbbba;
+    color: seashell;
+}
+
+/*
+    a:visited{
+        text-decoration: none;
+        color: white;
+    }
+    a:link{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        text-decoration: none;
+        font-size: 2rem;
+
+    }
+    a:active{
+        background-color: lightcoral;
+    }
+*/
